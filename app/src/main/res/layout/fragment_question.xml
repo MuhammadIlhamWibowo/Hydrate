@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionFragment">
+
+    <TextView
+        android:id="@+id/diagnoseQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Undefined"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/rgDiagnoseAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rbAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iya"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"/>
+
+        <RadioButton
+            android:id="@+id/rbAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
